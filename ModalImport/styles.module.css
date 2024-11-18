@@ -1,0 +1,51 @@
+.modalWrap {
+  width: 500px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  width: 100%;
+  padding: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid #cecece;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contentWrap {
+  padding: 18px;
+}
+
+.selectWrap {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.title {
+  margin: 0px 0px 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.buttonWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuItem {
+  width: 460px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box !important;
+  word-break: break-all;
+  word-wrap: break-word;
+}
